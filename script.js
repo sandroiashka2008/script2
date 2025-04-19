@@ -1,4 +1,4 @@
-// 1) Car და ElectricCar
+// 1)
 class Car {
     constructor(make, model, year) {
       this.make = make;
@@ -17,7 +17,7 @@ class Car {
   const tesla = new ElectricCar("Tesla", "Model S", 2022, "85%");
   console.log("1:", tesla);
   
-  // 2) Library
+  // 2) 
   class Library {
     constructor() {
       this.books = [];
@@ -42,7 +42,7 @@ class Car {
   myLibrary.removeBook('Harry Potter');
   console.log("2:", myLibrary.listBooks());
   
-  // 3) Employee
+  // 3)
   class Employee {
     constructor(name) {
       this.name = name;
@@ -54,9 +54,9 @@ class Car {
   }
   
   const emp = new Employee("Anna");
-  console.log("3:", emp.calculateSalary(40, 25)); // 1000
+  console.log("3:", emp.calculateSalary(40, 25)); 
   
-  // 4) ShoppingCart
+  // 4) 
   class ShoppingCart {
     constructor() {
       this.items = [];
@@ -87,7 +87,7 @@ class Car {
   console.log("4:", cart.items);
   console.log("Total:", cart.calculateTotal());
   
-  // 5) CarFactory
+  // 5) 
   class CarFactory {
     constructor() {
       this.cars = [];
@@ -126,7 +126,7 @@ class Car {
   factory.deleteCar("Ferrari");
   console.log("5:", factory.getAllCars());
   
-  // 6) Rectangle
+  // 6)
   class Rectangle {
     constructor(width, height) {
       this.width = width;
@@ -151,7 +151,7 @@ class Car {
   console.log("6 Perimeter:", rect.getPerimeter());
   console.log("6 isSquare:", rect.isSquare());
   
-  // 7) Inventory
+  // 7)
   class Inventory {
     constructor() {
       this.items = [];
